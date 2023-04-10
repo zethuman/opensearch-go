@@ -3,7 +3,7 @@ name: Increment Version
 on:
   push:
     tags:
-      - '*.*.*'
+      - '*.*'
 
 permissions: {}
 jobs:
