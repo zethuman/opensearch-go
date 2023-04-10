@@ -79,7 +79,7 @@ jobs:
           body: |
             I've noticed that a new tag ${{ env.TAG }} was pushed, and added a bwc version ${{ env.NEXT_VERSION }}.
 
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           ref: feature/workflow/bump
           token: ${{ steps.github_app_token.outputs.token }}
