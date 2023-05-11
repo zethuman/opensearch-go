@@ -15,3 +15,13 @@ jobs:
         with:
           run-gosec: true
           run-staticcheck: true
+          tool:
+            markdownlint:
+              enabled: true
+              checks:
+                MD002: # "First header should be a h1 header"
+                  enabled: false
+                MD013:
+                  enabled: false
+                MD010:
+                  enabled: false
