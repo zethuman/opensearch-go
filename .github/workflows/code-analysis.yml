@@ -1,27 +1,20 @@
-name: Codacy Analysis CLI
+name: Static Analysis
 
 on: ["push"]
 
 jobs:
-  codacy-analysis-cli:
-    name: Codacy Analysis CLI
+  build:
+    name: Build and Analyze
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@main
-
-      - name: Run Codacy Analysis CLI
-        uses: codacy/codacy-analysis-cli-action@master
+      - name: Setup Go
+        uses: actions/setup-go@v3
         with:
-          run-gosec: true
-          run-staticcheck: true
-          tool:
-            markdownlint:
-              enabled: true
-              checks:
-                MD002: # "First header should be a h1 header"
-                  enabled: false
-                MD013:
-                  enabled: false
-                MD010:
-                  enabled: false
+          go-version: '1.19'
+      - name: Clone Repository
+        uses: actions/checkout@master
+      - name: Analyze with SonarCloud
+        uses: sonarsource/sonarcloud-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
