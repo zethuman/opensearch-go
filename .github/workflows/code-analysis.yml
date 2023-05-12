@@ -21,4 +21,6 @@ jobs:
         with:
           projectBaseDir: .
           args: >
+            -Dsonar.organization=opensearch-go
+            -Dsonar.projectKey=zethuman_opensearch-go
             -Dsonar.verbose=true
