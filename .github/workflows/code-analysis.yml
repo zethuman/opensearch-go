@@ -21,6 +21,4 @@ jobs:
         with:
           projectBaseDir: .
           args: >
-            -Dsonar.organization=opensearch
-            -Dsonar.projectKey=${{ secrets.SONAR_TOKEN }}
             -Dsonar.verbose=true
