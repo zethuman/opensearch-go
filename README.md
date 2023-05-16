@@ -1,4 +1,11 @@
-[![Go Reference](https://pkg.go.dev/badge/github.com/opensearch-project/opensearch-go.svg)](https://pkg.go.dev/github.com/opensearch-project/opensearch-go/v2) [![Build](https://github.com/opensearch-project/opensearch-go/actions/workflows/lint.yml/badge.svg)](https://github.com/opensearch-project/opensearch-go/actions/workflows/lint.yml) [![Unit](https://github.com/opensearch-project/opensearch-go/actions/workflows/test-unit.yml/badge.svg)](https://github.com/opensearch-project/opensearch-go/actions/workflows/test-unit.yml) [![Integration](https://github.com/opensearch-project/opensearch-go/actions/workflows/test-integration.yml/badge.svg)](https://github.com/opensearch-project/opensearch-go/actions/workflows/test-integration.yml) [![codecov](https://codecov.io/gh/opensearch-project/opensearch-go/branch/main/graph/badge.svg?token=MI9g3KYHVx)](https://codecov.io/gh/opensearch-project/opensearch-go) [![Chat](https://img.shields.io/badge/chat-on%20forums-blue)](https://discuss.opendistrocommunity.dev/c/clients/) ![PRs welcome!](https://img.shields.io/badge/PRs-welcome!-success)
+[![Go Reference](https://pkg.go.dev/badge/github.com/opensearch-project/opensearch-go.svg)](https://pkg.go.dev/github.com/opensearch-project/opensearch-go/v2)
+[![Build](https://github.com/opensearch-project/opensearch-go/actions/workflows/lint.yml/badge.svg)](https://github.com/opensearch-project/opensearch-go/actions/workflows/lint.yml)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/a6371b0f281142a0b30a9c537d9fdb7e)](https://app.codacy.com/gh/zethuman/opensearch-go/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+[![Unit](https://github.com/opensearch-project/opensearch-go/actions/workflows/test-unit.yml/badge.svg)](https://github.com/opensearch-project/opensearch-go/actions/workflows/test-unit.yml)
+[![Integration](https://github.com/opensearch-project/opensearch-go/actions/workflows/test-integration.yml/badge.svg)](https://github.com/opensearch-project/opensearch-go/actions/workflows/test-integration.yml)
+[![codecov](https://codecov.io/gh/opensearch-project/opensearch-go/branch/main/graph/badge.svg?token=MI9g3KYHVx)](https://codecov.io/gh/opensearch-project/opensearch-go)
+[![Chat](https://img.shields.io/badge/chat-on%20forums-blue)](https://discuss.opendistrocommunity.dev/c/clients/)
+![PRs welcome!](https://img.shields.io/badge/PRs-welcome!-success)
 
 ![OpenSearch logo](OpenSearch.svg)
 
@@ -12,7 +19,10 @@ OpenSearch Go Client
 
 ## Welcome!
 
-**opensearch-go** is [a community-driven, open source fork](https://aws.amazon.com/blogs/opensource/introducing-opensearch/) of go-elasticsearch licensed under the [Apache v2.0 License](LICENSE.txt). For more information, see [opensearch.org](https://opensearch.org/).
+**opensearch-go** is
+[a community-driven, open source fork](https://aws.amazon.com/blogs/opensource/introducing-opensearch/)
+of go-elasticsearch licensed under the [Apache v2.0 License](LICENSE.txt). For
+more information, see [opensearch.org](https://opensearch.org/).
 
 ## Project Resources
 
@@ -31,7 +41,12 @@ OpenSearch Go Client
 
 ## Code of Conduct
 
-This project has adopted the [Amazon Open Source Code of Conduct](CODE_OF_CONDUCT.md). For more information see the [Code of Conduct FAQ](https://aws.github.io/code-of-conduct-faq), or contact [opensource-codeofconduct@amazon.com](mailto:opensource-codeofconduct@amazon.com) with any additional questions or comments.
+This project has adopted the
+[Amazon Open Source Code of Conduct](CODE_OF_CONDUCT.md). For more information
+see the [Code of Conduct FAQ](https://aws.github.io/code-of-conduct-faq), or
+contact
+[opensource-codeofconduct@amazon.com](mailto:opensource-codeofconduct@amazon.com)
+with any additional questions or comments.
 
 ## License
 
